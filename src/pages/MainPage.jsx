@@ -14,7 +14,14 @@ import ThemeSelector from "../components/ThemeSelector.jsx";
 import LanguageSelector from "../components/LanguageSelector.jsx";
 
 // Main landing page with feature cards
-function MainPage({ onSelectFeature, currentTheme, onThemeChange, lang, onLangChange }) {
+function MainPage({
+  onSelectFeature,
+  currentTheme,
+  resolvedTheme,
+  onThemeChange,
+  lang,
+  onLangChange,
+}) {
   const t = getTranslation(lang);
 
   // Note: PNG/JPEG output devices are not available in this WASM build
@@ -36,7 +43,11 @@ function MainPage({ onSelectFeature, currentTheme, onThemeChange, lang, onLangCh
   return (
     <div className="main-page">
       <div className="top-bar">
-        <ThemeSelector currentTheme={currentTheme} onThemeChange={onThemeChange} />
+        <ThemeSelector
+          currentTheme={currentTheme}
+          resolvedTheme={resolvedTheme}
+          onThemeChange={onThemeChange}
+        />
         <LanguageSelector currentLang={lang} onLangChange={onLangChange} />
       </div>
 

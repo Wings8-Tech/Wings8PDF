@@ -152,10 +152,6 @@ button {
   box-shadow: 0 0 0 2px var(--accent-primary);
 }
 
-.theme-dot-system {
-  background: linear-gradient(90deg, #f8f8fb 50%, #0a0a0f 50%);
-}
-
 /* ============ LANGUAGE SELECTOR ============ */
 .language-selector {
   display: flex;
