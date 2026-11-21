@@ -1,21 +1,21 @@
-/* Copyright (c) 2026 Jema Technology.
+/* Copyright (c) 2026 Wings8 Technology.
    Distributed under the license specified in the root directory of this project. */
 
 /* ============ ROOT & VARIABLES ============ */
 :root {
-  /* Jema Technology theme: #8286ef + white/black only */
+  /* Wings8 Technology theme: #8286ef + white/black only */
   --bg-primary: #f8f8fb;
   --bg-secondary: #ffffff;
   --bg-tertiary: #f0f0f5;
   --bg-card: #ffffff;
 
-  /* Accent colors - Jema purple */
+  /* Accent colors - Wings8 purple */
   --accent-primary: #8286ef;
   --accent-secondary: #5a5fd4;
   --accent-gradient: #8286ef;
   --accent-glow: rgba(130, 134, 239, 0.1);
 
-  /* Feature colors - all Jema purple */
+  /* Feature colors - all Wings8 purple */
   --compress-color: #8286ef;
   --merge-color: #8286ef;
   --split-color: #8286ef;

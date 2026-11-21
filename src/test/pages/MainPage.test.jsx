@@ -1,4 +1,4 @@
-/* Copyright (c) 2026 Jema Technology.
+/* Copyright (c) 2026 Wings8 Technology.
    Distributed under the license specified in the root directory of this project. */
 
 // MainPage tests
@@ -51,7 +51,7 @@ describe("MainPage", () => {
     it("displays footer line", () => {
       render(<MainPage {...defaultProps} />);
       expect(screen.getByText((content) => content.includes("Developed by"))).toBeInTheDocument();
-      expect(screen.getByText("Jema Technology")).toBeInTheDocument();
+      expect(screen.getByText("Wings8 Technology")).toBeInTheDocument();
       expect(screen.getByText((content) => content.includes("© 2026 • Open Source & Free"))).toBeInTheDocument();
     });
 
@@ -113,7 +113,7 @@ describe("MainPage", () => {
     it("displays footer line in French", () => {
       render(<MainPage {...frenchProps} />);
       expect(screen.getByText((content) => content.includes("Développé par"))).toBeInTheDocument();
-      expect(screen.getByText("Jema Technology")).toBeInTheDocument();
+      expect(screen.getByText("Wings8 Technology")).toBeInTheDocument();
       expect(screen.getByText((content) => content.includes("© 2026 • Open Source & Libre"))).toBeInTheDocument();
     });
   });

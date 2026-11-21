@@ -1,4 +1,4 @@
-/* Copyright (c) 2026 Jema Technology.
+/* Copyright (c) 2026 Wings8 Technology.
    Distributed under the license specified in the root directory of this project. */
 
 import React from "react";

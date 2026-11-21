@@ -1,11 +1,11 @@
 // Session web « Connect » — source d'auth indépendante de l'injection OS.
-// Voir jemanote/src/connectSession.ts pour la version TS commentée.
+// Voir wings8note/src/connectSession.ts pour la version TS commentée.
 //
 // Anti-robot : au-delà d'un seuil d'échecs, connect-api exige un token CAPTCHA
 // (Cloudflare Turnstile). Le token est fourni par le widget de SubscriptionGuard
 // et transmis ici sous `captcha_token`.
 
-const API_BASE = "https://connect-api.jematech.fr";
+const API_BASE = "https://connect-api.wings8tech.com";
 const CONNECT_LOGIN_URL = `${API_BASE}/v1/connect/login`;
 
 const asRecord = (value) => (typeof value === "object" && value !== null ? value : {});
@@ -57,18 +57,18 @@ export async function connectWebLogin(email, password, captchaToken) {
 
 export function persistConnectSession(accessToken, refreshToken) {
   try {
-    sessionStorage.setItem("jemaos_access_token", accessToken);
+    sessionStorage.setItem("wings8os_access_token", accessToken);
   } catch {
     /* storage indisponible */
   }
-  document.cookie = `jemaos_access_token=${accessToken}; Domain=.jemaos.com; Path=/; Secure; SameSite=Lax; Max-Age=86400`;
+  document.cookie = `wings8os_access_token=${accessToken}; Domain=.wings8.org; Path=/; Secure; SameSite=Lax; Max-Age=86400`;
   if (typeof refreshToken === "string" && refreshToken.length > 0) {
     try {
-      sessionStorage.setItem("jemaos_refresh_token", refreshToken);
-      localStorage.setItem("jemaos_refresh_token", refreshToken);
+      sessionStorage.setItem("wings8os_refresh_token", refreshToken);
+      localStorage.setItem("wings8os_refresh_token", refreshToken);
     } catch {
       /* storage indisponible */
     }
-    document.cookie = `jemaos_refresh_token=${refreshToken}; Domain=.jemaos.com; Path=/; Secure; SameSite=Lax; Max-Age=604800`;
+    document.cookie = `wings8os_refresh_token=${refreshToken}; Domain=.wings8.org; Path=/; Secure; SameSite=Lax; Max-Age=604800`;
   }
 }

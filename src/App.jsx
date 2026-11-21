@@ -1,4 +1,4 @@
-/* Copyright (c) 2026 Jema Technology.
+/* Copyright (c) 2026 Wings8 Technology.
    Distributed under the license specified in the root directory of this project. */
 
 import { useState, useEffect } from "react";
@@ -15,7 +15,7 @@ import SubscriptionGuard from "./SubscriptionGuard.jsx";
 import "./App.css";
 
 // ============ APP ============
-const THEME_STORAGE_KEY = "jemapdf-theme";
+const THEME_STORAGE_KEY = "wings8pdf-theme";
 
 const getSystemTheme = () => {
   if (typeof window === "undefined" || !window.matchMedia) return "light";
@@ -34,7 +34,7 @@ const getStoredMode = () => {
   return "system";
 };
 
-const LANG_STORAGE_KEY = "jemaos_lang";
+const LANG_STORAGE_KEY = "wings8os_lang";
 
 // Langue initiale : choix persisté de l'utilisateur, sinon langue du
 // navigateur/système (en ou fr), sinon anglais. Les PWA suivent donc la
@@ -158,7 +158,7 @@ function App() {
   };
 
   return (
-    <SubscriptionGuard appName="JemaPDF" lang={lang}>
+    <SubscriptionGuard appName="Wings8PDF" lang={lang}>
       <div className="app">{renderPage()}</div>
     </SubscriptionGuard>
   );

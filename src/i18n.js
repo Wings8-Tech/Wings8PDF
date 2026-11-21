@@ -1,4 +1,4 @@
-/* Copyright (c) 2026 Jema Technology.
+/* Copyright (c) 2026 Wings8 Technology.
    Distributed under the license specified in the root directory of this project. */
 
 // ============ INTERNATIONALIZATION ============
@@ -11,12 +11,12 @@ export const LANGUAGES = {
 export const translations = {
   en: {
     // Main page
-    appTitle: "JemaPDF",
+    appTitle: "Wings8PDF",
     tagline: "Edit your PDFs fast, private, and with no installation needed.",
     privacyFirst: "Privacy First:",
     privacyDesc:
       "All processing happens in your browser. No files are uploaded to any server. No cookies, no tracking.",
-    footerLine: "Developed by Jema Technology \u00a9 2026 \u2022 Open Source & Free",
+    footerLine: "Developed by Wings8 Technology \u00a9 2026 \u2022 Open Source & Free",
     footerLinePrefix: "Developed by ",
     footerLineSuffix: " \u00a9 2026 \u2022 Open Source & Free",
 
@@ -188,23 +188,23 @@ export const translations = {
     viewOnGithub: "View on GitHub",
 
     // Subscription guard
-    subscriptionRequired: "This application requires a JemaOS Pro subscription.",
+    subscriptionRequired: "This application requires a Wings8OS Pro subscription.",
     upgradeToPro: "Upgrade to Pro",
     reconnect: "Reconnect",
     reconnecting: "Reconnecting…",
     reconnectFailed: "Reconnection failed. Try again in a moment.",
     loading: "Loading…",
     reconnectScreenTitle: "Reconnecting…",
-    verifyingSession: "Verifying your JemaOS session. You will be redirected automatically.",
-    loginAccountLabel: "Jema account",
+    verifyingSession: "Verifying your Wings8OS session. You will be redirected automatically.",
+    loginAccountLabel: "Wings8 account",
     loginAccountPlaceholder: "name@example.com",
     loginPasswordLabel: "Password",
-    loginSubmit: "Sign in with Jema",
+    loginSubmit: "Sign in with Wings8",
     loginSubmitting: "Signing in…",
     loginErrorCaptcha: "Anti-robot verification required. Please try again.",
     loginErrorCaptchaTurnstile:
       "Anti-robot verification required. Complete the CAPTCHA and try again.",
-    loginErrorGeneric: "Sign-in failed. Please check your Jema credentials.",
+    loginErrorGeneric: "Sign-in failed. Please check your Wings8 credentials.",
 
     // License page
     licenseTitle: "📜 License",
@@ -212,12 +212,12 @@ export const translations = {
 
   fr: {
     // Main page
-    appTitle: "JemaPDF",
+    appTitle: "Wings8PDF",
     tagline: "Editer vos PDF de maniere rapide, privé et sans installation.",
     privacyFirst: "Confidentialité d'abord :",
     privacyDesc:
       "Tout le traitement se fait en local. Aucun fichier n'est envoyé à un serveur. Pas de cookies, pas de suivi.",
-    footerLine: "Développé par Jema Technology © 2026 • Open Source & Libre",
+    footerLine: "Développé par Wings8 Technology © 2026 • Open Source & Libre",
     footerLinePrefix: "Développé par ",
     footerLineSuffix: " © 2026 • Open Source & Libre",
 
@@ -391,7 +391,7 @@ export const translations = {
     viewOnGithub: "Voir sur GitHub",
 
     // Subscription guard
-    subscriptionRequired: "Cette application nécessite un abonnement JemaOS Pro.",
+    subscriptionRequired: "Cette application nécessite un abonnement Wings8OS Pro.",
     upgradeToPro: "Passer à Pro",
     reconnect: "Se reconnecter",
     reconnecting: "Reconnexion…",
@@ -399,15 +399,15 @@ export const translations = {
     loading: "Chargement…",
     reconnectScreenTitle: "Reconnexion en cours…",
     verifyingSession:
-      "Vérification de votre session JemaOS. Vous allez être redirigé automatiquement.",
-    loginAccountLabel: "Compte Jema",
+      "Vérification de votre session Wings8OS. Vous allez être redirigé automatiquement.",
+    loginAccountLabel: "Compte Wings8",
     loginAccountPlaceholder: "nom@exemple.com",
     loginPasswordLabel: "Mot de passe",
-    loginSubmit: "Se connecter avec Jema",
+    loginSubmit: "Se connecter avec Wings8",
     loginSubmitting: "Connexion…",
     loginErrorCaptcha: "Vérification anti-robot requise. Réessayez.",
     loginErrorCaptchaTurnstile: "Vérification anti-robot requise. Validez le CAPTCHA et réessayez.",
-    loginErrorGeneric: "Connexion impossible. Vérifiez vos identifiants Jema.",
+    loginErrorGeneric: "Connexion impossible. Vérifiez vos identifiants Wings8.",
 
     // License page
     licenseTitle: "📜 Licence",

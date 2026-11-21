@@ -1,13 +1,13 @@
 // Jeton d'entitlement SIGNÉ (JWT RS256) — vérification HORS-LIGNE.
-// Voir jemanote/src/entitlementToken.ts pour la version TS commentée.
+// Voir wings8note/src/entitlementToken.ts pour la version TS commentée.
 // Clé publique (JWKS) récupérée dynamiquement, aucun secret dans le client.
 
-const API_BASE = "https://connect-api.jematech.fr";
+const API_BASE = "https://connect-api.wings8tech.com";
 const ENTITLEMENT_URL = `${API_BASE}/v1/connect/os/entitlement`;
 const JWKS_URL = `${API_BASE}/v1/connect/os/entitlement-jwks`;
 
-const TOKEN_KEY = "jemaos_entitlement_jwt";
-const JWKS_KEY = "jemaos_entitlement_jwks";
+const TOKEN_KEY = "wings8os_entitlement_jwt";
+const JWKS_KEY = "wings8os_entitlement_jwks";
 const JWKS_CACHE_MS = 24 * 60 * 60 * 1000;
 
 function b64urlToBytes(input) {

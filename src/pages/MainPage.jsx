@@ -1,4 +1,4 @@
-/* Copyright (c) 2026 Jema Technology.
+/* Copyright (c) 2026 Wings8 Technology.
    Distributed under the license specified in the root directory of this project. */
 
 import { getTranslation } from "../i18n.js";
@@ -70,12 +70,12 @@ function MainPage({
         <p className="footer-links">
           {t("footerLinePrefix")}
           <a
-            href="https://www.jematechnology.fr/"
+            href="https://www.wings8.org/"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-brand-link"
           >
-            Jema Technology
+            Wings8 Technology
           </a>
           {t("footerLineSuffix")}
         </p>

@@ -40,8 +40,8 @@ export default defineConfig({
         navigateFallback: "index.html",
       },
       manifest: {
-        name: "JemaPDF",
-        short_name: "JemaPDF",
+        name: "Wings8PDF",
+        short_name: "Wings8PDF",
         description:
           "Outils PDF rapides, privés et hors ligne. Compresser, fusionner, diviser, extraire et convertir vos PDF directement dans votre navigateur.",
         theme_color: "#8286ef",

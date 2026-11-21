@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="public/pwa-192x192.png" width="96" height="96" alt="JemaPDF logo" />
+<img src="public/pwa-192x192.png" width="96" height="96" alt="Wings8PDF logo" />
 
-# JemaPDF
+# Wings8PDF
 
 ### Fast, private, installation-free PDF tools — 100% in your browser
 
-[![Made by Jema Technology](https://img.shields.io/badge/Made%20by-Jema%20Technology-8286ef)](https://www.jematechnology.fr)
+[![Made by Wings8 Technology](https://img.shields.io/badge/Made%20by-Wings8%20Technology-8286ef)](https://www.wings8.org)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-18-61dafb?logo=react&logoColor=white)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-6-646cff?logo=vite&logoColor=white)](https://vitejs.dev)
@@ -24,7 +24,7 @@
 
 </div>
 
-![JemaPDF — tools](screenshots/main.png)
+![Wings8PDF — tools](screenshots/main.png)
 
 ---
 
@@ -39,7 +39,7 @@
 | ⚫ **Grayscale** | Convert a color PDF to black & white          |
 | 📐 **Resize**    | Change page format (A4, Letter, …)            |
 
-## 💡 Why JemaPDF?
+## 💡 Why Wings8PDF?
 
 - **🔒 100% private** — files never leave your device; all processing is local
 - **📶 Offline** — works without a connection once installed (PWA)
@@ -55,35 +55,35 @@
 
 |                          Light                           |                             Dark                             |
 | :------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="screenshots/main.png" alt="JemaPDF — light" /> | <img src="screenshots/main-dark.png" alt="JemaPDF — dark" /> |
+| <img src="screenshots/main.png" alt="Wings8PDF — light" /> | <img src="screenshots/main-dark.png" alt="Wings8PDF — dark" /> |
 
 ### 📱 Mobile
 
 | Dark | Light |
 | :---: | :---: |
-| <img src="screenshots/mobile-dark.png" alt="JemaPDF — mobile, dark" width="300" /> | <img src="screenshots/mobile-light.png" alt="JemaPDF — mobile, light" width="300" /> |
+| <img src="screenshots/mobile-dark.png" alt="Wings8PDF — mobile, dark" width="300" /> | <img src="screenshots/mobile-light.png" alt="Wings8PDF — mobile, light" width="300" /> |
 
 ### Tools
 
 | 🗜️ Compress | 🔗 Merge |
 | :---: | :---: |
-| <img src="screenshots/tool-compress.png" alt="JemaPDF — compress PDF" /> | <img src="screenshots/tool-merge.png" alt="JemaPDF — merge PDFs" /> |
+| <img src="screenshots/tool-compress.png" alt="Wings8PDF — compress PDF" /> | <img src="screenshots/tool-merge.png" alt="Wings8PDF — merge PDFs" /> |
 
 | ✂️ Split | 📑 Extract pages |
 | :---: | :---: |
-| <img src="screenshots/tool-split.png" alt="JemaPDF — split PDF" /> | <img src="screenshots/tool-extract.png" alt="JemaPDF — extract pages" /> |
+| <img src="screenshots/tool-split.png" alt="Wings8PDF — split PDF" /> | <img src="screenshots/tool-extract.png" alt="Wings8PDF — extract pages" /> |
 
 | ⚫ Grayscale | 📐 Resize |
 | :---: | :---: |
-| <img src="screenshots/tool-grayscale.png" alt="JemaPDF — grayscale PDF" /> | <img src="screenshots/tool-resize.png" alt="JemaPDF — resize PDF" /> |
+| <img src="screenshots/tool-grayscale.png" alt="Wings8PDF — grayscale PDF" /> | <img src="screenshots/tool-resize.png" alt="Wings8PDF — resize PDF" /> |
 
 ---
 
 ## 🚀 Development
 
 ```bash
-git clone https://github.com/JemaOS/JemaPDF.git
-cd JemaPDF
+git clone https://github.com/Wings8-Tech/Wings8PDF.git
+cd Wings8PDF
 npm install
 npm run dev        # dev server
 npm test           # unit tests (Vitest)
@@ -135,5 +135,5 @@ git push origin feat/my-feature
 Released under the **GNU AGPL-3.0** — see [LICENSE](LICENSE).
 
 <div align="center">
-Made with ❤️ by <a href="https://www.jematechnology.fr">Jema Technology</a>
+Made with ❤️ by <a href="https://www.wings8.org">Wings8 Technology</a>
 </div>

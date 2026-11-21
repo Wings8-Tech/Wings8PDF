@@ -1,8 +1,8 @@
-/* Copyright (c) 2026 Jema Technology.
+/* Copyright (c) 2026 Wings8 Technology.
    Distributed under the license specified in the root directory of this project. */
 
 // Theme configuration for PDF Tools app
-// Jema Technology theme: #8286ef + white/black only
+// Wings8 Technology theme: #8286ef + white/black only
 
 export const THEMES = {
   dark: {
@@ -15,7 +15,7 @@ export const THEMES = {
       "--bg-secondary": "#12121a",
       "--bg-tertiary": "#1a1a25",
       "--bg-card": "#12121a",
-      // Accent - Jema purple #8286ef
+      // Accent - Wings8 purple #8286ef
       "--accent-primary": "#8286ef",
       "--accent-secondary": "#9ea1f2",
       "--accent-gradient": "#8286ef",
@@ -24,7 +24,7 @@ export const THEMES = {
       "--text-primary": "#ffffff",
       "--text-secondary": "#a0a0b0",
       "--text-muted": "#606070",
-      // Feature colors - all use Jema purple
+      // Feature colors - all use Wings8 purple
       "--compress-color": "#8286ef",
       "--merge-color": "#8286ef",
       "--split-color": "#8286ef",
@@ -42,7 +42,7 @@ export const THEMES = {
       "--bg-secondary": "#ffffff",
       "--bg-tertiary": "#f0f0f5",
       "--bg-card": "#ffffff",
-      // Accent - Jema purple #8286ef
+      // Accent - Wings8 purple #8286ef
       "--accent-primary": "#8286ef",
       "--accent-secondary": "#5a5fd4",
       "--accent-gradient": "#8286ef",
@@ -51,7 +51,7 @@ export const THEMES = {
       "--text-primary": "#1a1a2e",
       "--text-secondary": "#4a4a5a",
       "--text-muted": "#8a8a9a",
-      // Feature colors - all use Jema purple
+      // Feature colors - all use Wings8 purple
       "--compress-color": "#8286ef",
       "--merge-color": "#8286ef",
       "--split-color": "#8286ef",

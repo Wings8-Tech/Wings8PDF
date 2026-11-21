@@ -44,7 +44,7 @@ describe("connectSession (login web Connect)", () => {
 
   test("persistConnectSession écrit sessionStorage", () => {
     persistConnectSession("AT", "RT");
-    expect(sessionStorage.getItem("jemaos_access_token")).toBe("AT");
-    expect(sessionStorage.getItem("jemaos_refresh_token")).toBe("RT");
+    expect(sessionStorage.getItem("wings8os_access_token")).toBe("AT");
+    expect(sessionStorage.getItem("wings8os_refresh_token")).toBe("RT");
   });
 });
