@@ -422,7 +422,5 @@ export function getTranslation(lang) {
 
 // Detect browser language
 export function detectBrowserLanguage() {
-  const browserLang = navigator.language || navigator.userLanguage;
-  const shortLang = browserLang.split("-")[0];
-  return LANGUAGES[shortLang] ? shortLang : "en";
+  return "en";
 }

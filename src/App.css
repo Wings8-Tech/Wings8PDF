@@ -3,22 +3,22 @@
 
 /* ============ ROOT & VARIABLES ============ */
 :root {
-  /* Wings8 Technology theme: #8286ef + white/black only */
+  /* Wings8 Technology theme: #0A1F4A + white/black only */
   --bg-primary: #f8f8fb;
   --bg-secondary: #ffffff;
   --bg-tertiary: #f0f0f5;
   --bg-card: #ffffff;
 
   /* Accent colors - Wings8 purple */
-  --accent-primary: #8286ef;
-  --accent-secondary: #5a5fd4;
-  --accent-gradient: #8286ef;
+  --accent-primary: #0A1F4A;
+  --accent-secondary: #081A3E;
+  --accent-gradient: #0A1F4A;
   --accent-glow: rgba(130, 134, 239, 0.1);
 
   /* Feature colors - all Wings8 purple */
-  --compress-color: #8286ef;
-  --merge-color: #8286ef;
-  --split-color: #8286ef;
+  --compress-color: #0A1F4A;
+  --merge-color: #0A1F4A;
+  --split-color: #0A1F4A;
 
   /* Text colors - dark scale */
   --text-primary: #1a1a2e;
@@ -26,9 +26,9 @@
   --text-muted: #8a8a9a;
 
   /* Status colors - derived from accent */
-  --success: #8286ef;
-  --error: #8286ef;
-  --warning: #8286ef;
+  --success: #0A1F4A;
+  --error: #0A1F4A;
+  --warning: #0A1F4A;
 
   /* Borders & shadows */
   --border-color: rgba(0, 0, 0, 0.1);

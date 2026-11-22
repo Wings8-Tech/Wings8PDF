@@ -44,7 +44,7 @@ export default defineConfig({
         short_name: "Wings8PDF",
         description:
           "Outils PDF rapides, privés et hors ligne. Compresser, fusionner, diviser, extraire et convertir vos PDF directement dans votre navigateur.",
-        theme_color: "#8286ef",
+        theme_color: "#0A1F4A",
         background_color: "#0a0a0f",
         display: "standalone",
         orientation: "any",
