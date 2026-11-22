@@ -57,8 +57,13 @@
   --bg-tertiary: #1a1a25;
   --bg-card: #12121a;
 
-  --accent-secondary: #0B1F4B;
-  --accent-glow: rgba(130, 134, 239, 0.15);
+  --accent-primary: #F99634;
+  --accent-secondary: #FEBF69;
+  --accent-gradient: #F99634;
+  --accent-glow: rgba(249, 150, 52, 0.15);
+  --compress-color: #F99634;
+  --merge-color: #F99634;
+  --split-color: #F99634;
 
   --text-primary: #ffffff;
   --text-secondary: #a0a0b0;

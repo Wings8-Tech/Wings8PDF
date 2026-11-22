@@ -25,9 +25,9 @@ export const THEMES = {
       "--text-secondary": "#a0a0b0",
       "--text-muted": "#606070",
       // Feature colors - all use Wings8 purple
-      "--compress-color": "#0B1F4B",
-      "--merge-color": "#0B1F4B",
-      "--split-color": "#0B1F4B",
+      "--compress-color": "#F99634",
+      "--merge-color": "#F99634",
+      "--split-color": "#F99634",
       // Borders
       "--border-color": "rgba(255, 255, 255, 0.1)",
     },
