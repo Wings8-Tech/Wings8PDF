@@ -17,7 +17,7 @@ export const THEMES = {
       "--bg-card": "#12121a",
       // Accent - Wings8 purple #0B1F4B
       "--accent-primary": "#F99634",
-      "--accent-secondary": "#FEC069",
+      "--accent-secondary": "#FEBF69",
       "--accent-gradient": "#F99634",
       "--accent-glow": "rgba(249, 150, 52, 0.15)",
       // Text colors - white scale
